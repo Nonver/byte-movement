@@ -1,0 +1,14 @@
+<view class="intro">
+    <image src="https://thirdqq.qlogo.cn/g?b=sdk&k=V1bIOKodwGvcJ6DhJpWickg&s=100&t=1614087597" mode="" />
+    <view class="classname">
+        <view bindtap="qq" class="{{claA}}">QQ查询</view>
+        <view bindtap="phone" class="{{claB}}">手机查询</view>
+        <view bindtap="sm" class="{{claC}}">说明</view>
+    </view>
+    <view class="content">
+        <input type="text" class="cx-input" placeholder="授权码" value="{{val}}" bindinput="tapQq"/>
+        <input type="text" class="cx-input" placeholder="QQ" value="{{valr}}" bindinput="tapPhone"/>
+        <textarea placeholder="" class="cx-textarea" value="{{arr}}"/>
+    </view>
+    <view class="class-btn" bindtap="ann">查询</view>
+</view>
